@@ -11,7 +11,7 @@
           MYSQL_ROOT_PASSWORD: 1234qwe.
     - name: "Executa o container WordPress"
       docker_container:
-        name: siteblobo
+        name: sitebloco
         image: wordpress
         links:
           - "banco.bloco:mysql"
